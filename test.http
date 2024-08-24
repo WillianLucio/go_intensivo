@@ -1,0 +1,12 @@
+GET http://localhost:8080/books
+Accept: application/json
+
+### Add a new book
+POST http://localhost:8080/books
+Content-Type: application/json
+
+{
+  "tittle": "Clear Code",
+  "author": "Robert C. Martin",
+  "genre": "Software Engineering"
+}
